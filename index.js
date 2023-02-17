@@ -4,7 +4,7 @@ var temperature = document.getElementById("temperature");
 var rainfall = document.getElementById("rainfall");
 var rainfallProbability = document.getElementById("rainfall-probability");
 var temp_icon = "";
-var API_KEY = "b8f7634495464664e2e66abf191e3ece";
+var API_KEY = "";
 var city = "Tokyo";
 var weather_url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
 fetch(weather_url)
